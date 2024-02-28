@@ -1,0 +1,125 @@
+                              Module (Bootstrap Basic & Advanced) – 6
+
+1.	What are the advantages of Bootstrap?
+
+Easy initiation
+	Coding is a hurricane task for a person who is unbeknownst to web development. But the greatest use of Bootstrap in web development is it makes coding hassle-free. 
+    Responsiveness
+	Due to this extensive demand, having a mobile-responsive website has become a prerequisite, and this task is a cakewalk with Bootstrap by your side. It has a fluid grid layout, which adapts as per the screen resolution.
+
+Highly customizable
+	You can find an array of templates in Bootstrap. However, if you find them unappealing, you can concoct your customization using the CSS file. 
+
+ Extremely user-centric
+	While creating landing pages, it is very important to design from the user’s point of view. If a landing page is engaging, only then does it appeal to the audience.
+
+ 
+Top-notch support
+	When using Bootstrap, the only requirement is basic knowledge of coding. However, as a newbie, you might come across an array of problems. It might lead to hesitancy when using Bootstrap
+
+Cross-browser compatibility
+	Every user is different, and so is their device. Along with the device, they use varied browsers too. Bootstrap is compatible with the latest versions of all modern browsers and platforms. One of the biggest advantages of using Bootstrap is compatibility across browsers.
+
+         2 • What is a Bootstrap Container, and how does it work?
+	Bootstrap Containers are the most basic layout element in Bootstrap. Bootstrap Containers are very essential and basic building blocks of bootstrap that wrap a page’s content.
+
+	  How does it work :
+1.	Used for Fixed width.
+2.	Responsive Behavior.
+3.	Set padding and margin.
+4.	Center containt.
+5.	Grid system alignment.
+
+3. What are the default Bootstrap textsettings?
+	Default Text Setting:
+1.	Font weight.
+2.	Font size.
+3.	Text Decoration.
+4.	Text color.
+5.	Text Alignment.
+
+4.What do you know about the Bootstrap Grid System?
+
+	The grid layout is used for design the containers, rows, and colums.
+
+	The Bootstrap Grid System is a powerful layout system that allows developers to create responsive and flexible designs for websites and web applications.
+5.What is the difference between Bootstrap 4 and Bootstrap 5?
+
+	Bootstrap 4 relies on jQuery for certain features and functionality, while Bootstrap 5 has removed this dependency, making it lighter and more modern.
+	Bootstrap 4 has five levels like xs, sm, md, xl, and lg. And Bootstrap 5 has six levels like xs, sm, md, xl, lg and xxl.
+
+
+6.What is a Button Group, and what is the class for a basic Button Group?
+
+	“Button Groups” in Bootstrap is a class of name “btn-group” which is used to create a series of buttons in groups.
+	It is create a series of buttons in groups withou space and vertically or horizontally.
+	Example:
+
+<div class="btn-group" role="group" aria-label="Basic example">
+    <button type="button" class="btn btn-primary">First Button</button>
+    <button type="button" class="btn btn-secondary">Second Button</button>
+    <button type="button" class="btn btn-success">Third Button</button>
+</div>
+
+
+7.How can you use Bootstrap to make thumbnails?
+
+<div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="image1.jpg" class="card-img-top" alt="Thumbnail 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Thumbnail 1</h5>
+                        <p class="card-text">Description for Thumbnail 1.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="image2.jpg" class="card-img-top" alt="Thumbnail 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Thumbnail 2</h5>
+                        <p class="card-text">Description for Thumbnail 2.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+8.In Bootstrap 4, what is flexbox?
+
+	In Bootstrap 4, Flexbox refers to the Flexible Box Layout module, a powerful CSS layout system that allows you to design complex and responsive layouts with ease. 
+	Flexbox provides a more efficient way to distribute space among items in a container and align them in various ways, including horizontally and vertically. 
+	With Flexbox in Bootstrap 4, you can create flexible and dynamic layouts that adapt to different screen sizes and devices, providing a better user experience across the web.
+
+9.How can one create an alert in Bootstrap?
+
+<div class="container">
+
+    <div class="alert alert-primary" role="alert">
+        A simple primary alert—check it out!
+    </div>
+    <div class="alert alert-secondary" role="alert">
+        A simple secondary alert—check it out!
+    </div>
+    <div class="alert alert-success" role="alert">
+        A simple success alert—check it out!
+    </div>
+    <div class="alert alert-danger" role="alert">
+        A simple danger alert—check it out!
+    </div>
+    <div class="alert alert-warning" role="alert">
+        A simple warning alert—check it out!
+    </div>
+    <div class="alert alert-info" role="alert">
+        A simple info alert—check it out!
+    </div>
+    <div class="alert alert-light" role="alert">
+        A simple light alert—check it out!
+    </div>
+    <div class="alert alert-dark" role="alert">
+        A simple dark alert—check it out!
+    </div>
+    
+</div>
